@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .panel {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+      padding: 15px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #f9f9f9;
+    }
+    .panel-header {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .panel-body {
+      margin-bottom: 10px;
+    }
+    .panel-footer {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <div class="panel-header">Panel Header</div>
+    <div class="panel-body">This is the body of the panel.</div>
+    <div class="panel-footer">
+      <button onclick="alert('Button clicked!')">OK</button>
+    </div>
+  </div>
+</body>
+</html>
