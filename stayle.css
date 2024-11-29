@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Gaya umum untuk semua perangkat */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Media query untuk perangkat dengan lebar layar lebih kecil dari 768px (tablet dan ponsel) */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    
+    footer {
+        font-size: 14px;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+}
+
+/* Media query untuk perangkat dengan lebar layar lebih kecil dari 480px (ponsel) */
+@media only screen and (max-width: 480px) {
+    header {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .main-content {
+        font-size: 14px;
+    }
+}
